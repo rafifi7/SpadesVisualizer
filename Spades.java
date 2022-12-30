@@ -28,7 +28,7 @@ public class Spades {
         String player2 = input.nextLine();
         System.out.println("Enter the name of the third player:");
         String player3 = input.nextLine();
-        System.out.println("Enter the name of the fourth player:\n");
+        System.out.println("Enter the name of the fourth player:");
         String player4 = input.nextLine();
 
         System.out.println("What score would you like to play to?\n");
