@@ -82,5 +82,14 @@ public class Spades {
             printScores(scores);  
             System.out.println("----------------------------------------------");          
         }
+        int winnerIndex = 0;
+        for (int i = 1; i < 4; i++) {
+            if (scores.get(names[i]) > scores.get(names[winnerIndex])) {
+                winnerIndex = i;
+            }
+        }
+        System.out.println("Game Over!");
+        System.out.println("Congratulations to " + names[winnerIndex] + " for winning the game!");
+        
     }
 }
